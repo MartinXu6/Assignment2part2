@@ -361,7 +361,7 @@ expected output:
 -1  1
 </pre>
 
-![my diagram](design01.png) \
+![my diagram](design01.png)
 
 # Original challenge question from CodeGolf #
 
