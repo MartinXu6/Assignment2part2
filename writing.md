@@ -25,8 +25,8 @@ The actual questions are in
   font-size:   1.1rem;
   /*font-size:   1.2rem;*/
   /* Zenburn dark theme */
-  background-color: #2A252A;
-  color:            #D5DAD5;
+  background-color: #3D3D3D;
+  color:            #ebebe6;
   /* One Dark theme */
   /*background-color: #282C34;
   color:            #ABB2BF;*/

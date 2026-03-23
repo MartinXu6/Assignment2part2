@@ -2,9 +2,32 @@
 
 - Name: Martin Xu
 - Student ID: S2786186
-- Tutorial group: 07
+- Tutorial group: 07A
 - Tutor: Shlok Gupta
-- Date: 2026-03-10
+- Date: 2026-03-30
+
+
+[CodeGolf Post](https://codegolf.stackexchange.com/questions/167513/spoonerise-words-in-finnish)
+For the challenge and the test cases
+
+[Pseudocode Guidelines](https://simple.wikipedia.org/wiki/Pseudocode)
+To make sure my pseudocode is following the pseudocode guideline, helps me write my algorithm in pseudocode
+
+[WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/)
+To ensure accessibility for those with low vision
+
+[Coblis Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+To ensure accessibility for those who are colour-blinded
+
+[W3Schools](https://www.w3schools.com/java/java_try_catch.asp)
+For error handling in java, helps me be able to catch errors without exiting the program
+
+[Draw.io](https://www.drawio.com/)
+To help me draw my design diagrams with shapes and arrows.
+
+Lecture 2 Slides for use of loops in java
+
+Lecture 3 Slides for use of arrays in java 
 
 <STYLE>
 * { /* Don't leave any empty lines or IntelliJ might not render correctly */
@@ -12,8 +35,8 @@
   font-size:   1.1rem;
   /*font-size:   1.2rem;*/
   /* Zenburn dark theme */
-  background-color: #2A252A;
-  color:            #D5DAD5;
+  background-color: #3D3D3D;
+  color:            #ebebe6;
   /* One Dark theme */
   /*background-color: #282C34;
   color:            #ABB2BF;*/
