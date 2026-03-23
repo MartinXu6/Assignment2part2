@@ -40,7 +40,7 @@ public class Design {
         }
 
         // The % operator gives the remainder after division
-        // inputNum % COLUMNS == 0 means the number divides evenly by 2 (is even)
+        // inputNum % COLUMNS == 0 means the number divides 2 with 0 remainder, meaning it is even
         // Example: 14 % 2 = 0 (even), 15 % 2 = 1 (odd)
         if (inputNum % COLUMNS != 0) {
             System.out.println("Input needs to be even, please try again.");
@@ -59,7 +59,7 @@ public class Design {
         // The array size is floorCount because we need exactly that many buttons
         int[] validNumbers = new int[floorCount];
 
-        // The first button is always -1 (represents ground floor or basement)
+        // The first button is always -1 (represents basement)
         validNumbers[0] = -1;
 
         int currentIndex = 1;  // Tracks next empty position in the array (index 1 is second slot)
@@ -73,14 +73,14 @@ public class Design {
 
             // Integer.toString(candidate) converts the number to a String like "14"
             // .contains(FORBIDDEN_DIGIT) checks if the String contains "4"
-            // Example: "14".contains("4") returns true
+            // Example: "14".contains("4") returns true, "15".contains("4") returns false
             // This is how we skip numbers like 4, 14, 24, 40, 41, etc.
             boolean containsForbiddenDigit = Integer.toString(candidate).contains(FORBIDDEN_DIGIT);
 
-            // Only add the number if it passes BOTH checks
-            // !isSkipped means "is NOT 13"
-            // !containsForbiddenDigit means "does NOT contain digit 4"
-            // && means both conditions must be true
+            // Only add the number if it passes both checks
+            // !isSkipped means "our current number is NOT 13"
+            // !containsForbiddenDigit means "our current number does NOT contain digit 4"
+            // && means both conditions must be true (logical AND operation)
             if (!isSkipped && !containsForbiddenDigit) {
                 // Store the valid number in the current empty position
                 validNumbers[currentIndex] = candidate;
@@ -106,7 +106,7 @@ public class Design {
     }
 
     public static void main(String[] args) {
-        // Scanner reads input from the keyboard (System.in)
+        // Scanner reads input from the keyboard
         Scanner scanner = new Scanner(System.in);
 
         // Read the first line of input from the user
@@ -115,7 +115,7 @@ public class Design {
         // Keep asking for input until the user provides a valid number
         // isValidInput prints an error message and returns false for invalid input
         while (!isValidInput(userInput)) {
-            userInput = scanner.nextLine();  // Read another attempt
+            userInput = scanner.nextLine();  // Read another attempt if the previous one failed the validation check
         }
 
         // Convert the validated input from String to int
@@ -124,7 +124,6 @@ public class Design {
         // Generate and print the button layout
         printButtonLayout(floorCount);
 
-        // Close the scanner to free system resources
         scanner.close();
     }
 }
