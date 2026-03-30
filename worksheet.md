@@ -22,6 +22,16 @@ Be able to construct a simple program using for loops, while loops, if statement
 # 1.Introduction #
 Have you ever stepped into an elevator and noticed something strange? Floor 4 is missing. Or floor 13. Sometimes both are gone entirely.
 
+For example, you might see the buttons layout like this below:
+<pre>
+15  16
+11  12
+9   10
+7   8
+5   6
+2   3
+-1  1
+</pre>
 In countries like China, Japan, and South Korea, elevators often skip floor 4 entirely. The word for "four" sounds almost identical to the word for "death" in these languages, making the number deeply unlucky. In Western countries, the 13th floor is commonly omitted due to triskaidekaphobia which is the fear of the number 13.
 
 When these numbers are removed, the floors above can't simply be renumbered. That would cause a lot of problems! Instead, the physical elevator buttons must show the actual floor numbers as they appear in the building by skipping the unlucky numbers entirely.
@@ -563,7 +573,8 @@ After an invalid input, the program should prompt the user again and keep asking
 
 ## Once you've passed all these tests, your elevator button layout program is complete! ##
 
-![This is a diagram I have created helping you to visualise our algorithm. On the left side, there is a flow diagram displaying how numbers are checked and filled in our array if valid. On the right, there is a diagram showing how we print the numbers from our array into the format requested ](design01.jpg)
+## Diagram ##
+![This is a diagram I have created helping you to visualise our algorithm. On the left side, there is a flow diagram displaying how numbers are checked and filled in our array if valid. On the right, there is a diagram showing how we print the numbers from our array into the format requested.](design01.jpg)
 
 # Algorithm pseudocode #
 <pre>

@@ -13,11 +13,40 @@ The actual questions are in
 
 # 1: Helping previous you #
 
+First advice I would give myself is that to make the worksheet as engaging as possible and make sure it is interesting enough for
+people to be willing to spend time on this. Second advice I would give is that I should always try to make sure I am passing down 
+information in a very succinct and concise way. At the start I was spending way too much time trying to explain the challenge in long, boring text,
+but instead I should have used diagrams or trace tables to help visualise the problem. Last piece of advice would be time management. I started the assignment too late
+such that I didn't have time to do everything properly before the first deadline, meaning I won't be able to get full feedback. Next time, I would definitely plan ahead of time
+and not finish in a rush.
+
 # 2: Helping future you #
+
+Those experiences can help me a lot if in the future I will be working in a team as a Computer scientist in a company. First, knowing markdown meaning I can present 
+my solution and documentation very clearly. Also in a team, we can write each other code reviews which are formatted and organised using markdown. By knowing accessibility, 
+I would be able to ensure all my software and documentation work for all users, including those with visual disabilities or people using screen readers. Lastly, by knowing about
+engineering requirements, this removes all ambiguity in team communication so everyone knows exactly what is mandatory and what is optional. Also, this makes sure
+when the company or my client gives out a task, I know exactly what to do. It also creates very clear testing and code review criteria .
+
 
 # 3: You be the judge #
 
+At the start, I tried explaining everything in words and long sentences. I soon found out that is very ineffective because first the reader would not even want to
+start the worksheet if all they see is huge chunks of text. In addition, they don't even explain the problem well. So I then tried to explain my algorithm using 
+diagrams, trace tables and pseudocode. Not only they help the reader to visualise and understand the problem far better, they also make the whole worksheet much more engaging
+and fun to do. I would say the trace tables turns out to be much more effective than I imagined it would be after showing them to my friends. I think showing the iterations
+one by one and what's happening to every variable per loop is extremely helpful for anyone to understand what is going on, even they know nothing about programming. 
+
 # 4: How has your feedback helped you? #
+
+Firstly, my tutor said that my design code lacks error handling and is too unclear. Also the comments only explain what the code is doing, not why they are there. Hence 
+I added the error handling feature, rewrote all the comments and made sure they are very clear and explains the purpose of them. I also corrected the formatting,
+ making sure all the naming conventions are correct, the whitespace to be consistent and made some of the variables constants instead of using magic numbers.
+Next, my tutor also said that my worksheet lacks engagement with the reader, and that there is too much text and not very interesting. To improve, I rewrote the whole document,
+making the worksheet very engaging by asking the user some questions and giving them some chances to consider things themselves. Also, I have added lots of interesting ways to help the 
+user understand the problem such as pseudocode and trace tables. I have also improved my diagram from just a basic flowchart into a very detailed and visualising diagram. At last, 
+my tutor said that I did not put accessibility into consideration, as my worksheet had white text on black background and it the contrast was too high and there was no
+alt text to my diagram. I then changed the background colour to be grey to lower the contrast and then added a alt text to my diagram.
 
 <STYLE>
 * { /* Don't leave any empty lines or IntelliJ might not render correctly */
