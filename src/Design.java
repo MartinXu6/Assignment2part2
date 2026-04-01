@@ -54,7 +54,7 @@ public class Design {
      * Buttons are: -1 followed by numbers that aren't 13 and don't contain digit 4.
      * Printed in two columns, reading bottom-to-top gives ascending order.
      */
-    public static void printButtonLayout(int floorCount) {
+    public static void printButtonLayout(final int floorCount) {
         // Create an array to store all valid button numbers in ascending order
         // The array size is floorCount because we need exactly that many buttons
         int[] validNumbers = new int[floorCount];
@@ -69,13 +69,13 @@ public class Design {
         // When currentIndex equals floorCount, the array is full
         while (currentIndex < floorCount) {
             // Check if this candidate violates the "skip 13" rule
-            boolean isSkipped = (candidate == SKIPPED_NUMBER);
+            final boolean isSkipped = (candidate == SKIPPED_NUMBER);
 
             // Integer.toString(candidate) converts the number to a String like "14"
             // .contains(FORBIDDEN_DIGIT) checks if the String contains "4"
             // Example: "14".contains("4") returns true, "15".contains("4") returns false
             // This is how we skip numbers like 4, 14, 24, 40, 41, etc.
-            boolean containsForbiddenDigit = Integer.toString(candidate).contains(FORBIDDEN_DIGIT);
+            final boolean containsForbiddenDigit = Integer.toString(candidate).contains(FORBIDDEN_DIGIT);
 
             // Only add the number if it passes both checks
             // !isSkipped means "our current number is NOT 13"
@@ -119,7 +119,7 @@ public class Design {
         }
 
         // Convert the validated input from String to int
-        int floorCount = Integer.parseInt(userInput);
+        final int floorCount = Integer.parseInt(userInput);
 
         // Generate and print the button layout
         printButtonLayout(floorCount);

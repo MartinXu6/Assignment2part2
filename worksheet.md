@@ -32,7 +32,7 @@ For example, you might see the buttons layout like this below:
 2   3
 -1  1
 </pre>
-In countries like China, Japan, and South Korea, elevators often skip floor 4 entirely. The word for "four" sounds almost identical to the word for "death" in these languages, making the number deeply unlucky. In Western countries, the 13th floor is commonly omitted due to triskaidekaphobia which is the fear of the number 13.
+In countries like China, Japan, and South Korea, elevators often skip floors with digit 4 entirely. The word for "four" sounds almost identical to the word for "death" in these languages, making the number deeply unlucky. In Western countries, the 13th floor is commonly omitted due to triskaidekaphobia which is the fear of the number 13.
 
 When these numbers are removed, the floors above can't simply be renumbered. That would cause a lot of problems! Instead, the physical elevator buttons must show the actual floor numbers as they appear in the building by skipping the unlucky numbers entirely.
 
@@ -46,7 +46,7 @@ The floor numbers should respect both traditions:
 
 -No floor containing the digit 4 (East Asian tradition)
 
-The hotel has n floors (where n is an even number). You must generate the sequence of valid floor numbers starting with -1 (basement) and continuing upward, skipping any number that is 13 or contains the digit 4. Then print the buttons in two neat columns so that reading from the bottom row to the top row gives the floors in ascending order.
+The hotel has n floors (where n is an even number). You must generate the sequence of valid floor numbers starting with -1 (basement) and continuing upward, skipping any number that is 13 or contains the digit 4. Then print the buttons in two columns so that reading from the bottom row to the top row gives the floors in ascending order.
 
 This problem combines programming concepts you already know: loops, arrays, selection, and input validation with a real life problem.
 

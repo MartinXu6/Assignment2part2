@@ -7,7 +7,7 @@
 - Date: 2026-03-30
 
 
-[CodeGolf Post](https://codegolf.stackexchange.com/questions/167513/spoonerise-words-in-finnish)
+[CodeGolf Post](https://codegolf.stackexchange.com/questions/68866/superstitious-hotel-elevator)
 For the challenge and the test cases
 
 [Pseudocode Guidelines](https://simple.wikipedia.org/wiki/Pseudocode)
@@ -20,7 +20,7 @@ To ensure accessibility for those with low vision
 To ensure accessibility for those who are colour-blinded
 
 [W3Schools](https://www.w3schools.com/java/java_try_catch.asp)
-For error handling in java, helps me be able to catch errors without exiting the program
+For error handling in java, helps me to be able to catch errors without exiting the program
 
 [Draw.io](https://www.drawio.com/)
 To help me draw my design diagrams with shapes and arrows.
