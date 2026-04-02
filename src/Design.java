@@ -2,9 +2,9 @@
  * @author Martin Xu
  * @version 2026-03-10
  * <p>
- * Solution to the code gold problem -superstitious-hotel-elevator.
+ * Solution to the code golf problem -superstitious-hotel-elevator.
  * <p>
- * Optionally: The class has a method elevator which prints out the buttons as the problem requests given the input from the
+ * Optionally: The class has a method printButtonLayout which prints out the buttons as the problem requests given the input from the
  * main method using scanner.
  */
 import java.util.Scanner;
